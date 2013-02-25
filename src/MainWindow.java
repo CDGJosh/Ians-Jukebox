@@ -639,7 +639,7 @@ public class MainWindow extends JFrame implements MusicPlayerListener, NativeKey
 		else if(e.getRawCode() == 177)
 		{
 			int proPer = (int)(100.0/(double)positionSlider.getMaximum()*(double)positionSlider.getValue());
-			if(proPer <= 15)
+			if(proPer >= 15)
 			{
 				mp.seek(0);
 	            mp.setGain(volumeSlider.getValue());
