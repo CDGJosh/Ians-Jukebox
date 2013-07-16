@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Rsrc-Class-Path: ./ tritonus_share.jar jorbis-0.0.15.jar JID3.jar jogg
+ -0.0.7.jar jl1.0.jar jspeex0.9.7.jar basicplayer3.0.jar commons-loggi
+ ng-api.jar JNativeHook.jar vorbisspi1.0.2.jar mp3spi1.9.4.jar
+Class-Path: .
+Rsrc-Main-Class: MainWindow
+Main-Class: org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader
+
